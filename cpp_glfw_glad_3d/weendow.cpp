@@ -1,4 +1,5 @@
 #include "weendow.hpp"
+#include <cassert>
 
 Weendow::Weendow(void)
 {
@@ -147,13 +148,15 @@ static void framebuffersize_callback(GLFWwindow* window, int width, int height) 
 
 void Weendow::init(GLFWwindow* &window, int width, int height, const char* title)
 {
+    int ret = 0;
     glfwInit();
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 6);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
     window = glfwCreateWindow(width, height, title, NULL, NULL);
     glfwMakeContextCurrent(window);
-    gladLoadGLLoader((GLADloadproc)glfwGetProcAddress);
+    ret = gladLoadGLLoader((GLADloadproc)glfwGetProcAddress);
+    assert(ret);
     glfwSetWindowCenter(window);
     glfwSetKeyCallback(window, key_callback);
     glfwSetFramebufferSizeCallback(window, framebuffersize_callback);

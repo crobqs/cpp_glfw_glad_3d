@@ -1,11 +1,11 @@
 #pragma once
 
-#include <glad/glad.h>
-#include <iostream>
-#include <string>
-#include <sstream>
-#include <fstream>
-#include <cerrno>
+#include<glad/glad.h>
+#include<iostream>
+#include<string>
+#include<fstream>
+#include<sstream>
+#include<cerrno>
 
 std::string getFileContents(const char* fileName);
 
