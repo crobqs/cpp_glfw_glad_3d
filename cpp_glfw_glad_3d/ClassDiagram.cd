@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Shader">
+    <Position X="7" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAA=</HashCode>
+      <FileName>shader.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Weendow">
+    <Position X="5.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAACEAAAAAEAAAAAAAAIAAIAACAABAAA=</HashCode>
+      <FileName>weendow.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vao">
+    <Position X="9.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAACICAAAAAAAAAAAAAAAAAAAIAAAAAAAAABAA=</HashCode>
+      <FileName>vao.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vbo">
+    <Position X="11" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAACIAAAAAAAABAAAAAAAAAAAIAAAAAAAAABAA=</HashCode>
+      <FileName>vbo.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ebo">
+    <Position X="12.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAIAAAAAACAAAAAAAAAAAABIAAAAAAAAABAA=</HashCode>
+      <FileName>ebo.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
